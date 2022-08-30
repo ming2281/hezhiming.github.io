@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>归档 - HEZHIMING - A super concise theme for Hugo</title>
+  <title>Modern Python 项目配置 - HEZHIMING - A super concise theme for Hugo</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="hezhiming" /><meta name="description" content="Hugo theme even example site." /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="hezhiming" /><meta name="description" content="Python版本 &amp;gt;= Python3.8 CI工具 flake8 lint工具,没啥好解释的 Pylint 跟上面有所重复,都整上没毛病 mypy 必备 black 有规范比没规范好; 无法妥协的规范更好; 我知道部" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,9 +26,7 @@
 <meta name="generator" content="Hugo 0.94.2 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/" />
-  <link href="http://localhost:1313/post/index.xml" rel="alternate" type="application/rss+xml" title="HEZHIMING - A super concise theme for Hugo" />
-  <link href="http://localhost:1313/post/index.xml" rel="feed" type="application/rss+xml" title="HEZHIMING - A super concise theme for Hugo" />
+<link rel="canonical" href="http://localhost:1313/post/python/1/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,15 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="Hugo theme even example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/post/" />
+<meta property="og:title" content="Modern Python 项目配置" />
+<meta property="og:description" content="Python版本 &gt;= Python3.8 CI工具 flake8 lint工具,没啥好解释的 Pylint 跟上面有所重复,都整上没毛病 mypy 必备 black 有规范比没规范好; 无法妥协的规范更好; 我知道部" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/python/1/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-08-31T00:28:34+08:00" />
+<meta property="article:modified_time" content="2022-08-31T00:28:34+08:00" />
 
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="Hugo theme even example site."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Hugo theme even example site."/>
+<meta itemprop="name" content="Modern Python 项目配置">
+<meta itemprop="description" content="Python版本 &gt;= Python3.8 CI工具 flake8 lint工具,没啥好解释的 Pylint 跟上面有所重复,都整上没毛病 mypy 必备 black 有规范比没规范好; 无法妥协的规范更好; 我知道部"><meta itemprop="datePublished" content="2022-08-31T00:28:34+08:00" />
+<meta itemprop="dateModified" content="2022-08-31T00:28:34+08:00" />
+<meta itemprop="wordCount" content="292">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Modern Python 项目配置"/>
+<meta name="twitter:description" content="Python版本 &gt;= Python3.8 CI工具 flake8 lint工具,没啥好解释的 Pylint 跟上面有所重复,都整上没毛病 mypy 必备 black 有规范比没规范好; 无法妥协的规范更好; 我知道部"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -119,29 +122,122 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-<section id="archive" class="archive">
-      <div class="collection-title">
-        <h2 class="archive-year">2022</h2>
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Modern Python 项目配置</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2022-08-31 </span>
+        
+        
       </div>
+    </header>
 
-    <div class="archive-post">
-      <span class="archive-post-time">
-        08-31
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/python/1/" class="archive-post-link">
-          Modern Python 项目配置
-        </a>
-      </span>
-    </div></section>
-
-<nav class="pagination">
-  
-  
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#python版本">Python版本</a></li>
+    <li><a href="#ci工具">CI工具</a></li>
+    <li><a href="#工具库">工具库</a></li>
+  </ul>
 </nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 id="python版本">Python版本</h1>
+<p><code>&gt;= Python3.8</code></p>
+<h1 id="ci工具">CI工具</h1>
+<ul>
+<li>flake8
+<ul>
+<li>lint工具,没啥好解释的</li>
+</ul>
+</li>
+<li>Pylint
+<ul>
+<li>跟上面有所重复,都整上没毛病</li>
+</ul>
+</li>
+<li>mypy
+<ul>
+<li>必备</li>
+</ul>
+</li>
+<li>black
+<ul>
+<li>有规范比没规范好; 无法妥协的规范更好; 我知道部分人不喜欢, 但其实忍忍也没啥</li>
+</ul>
+</li>
+<li>isort
+<ul>
+<li>可选,不配置也没啥</li>
+</ul>
+</li>
+<li>bandit
+<ul>
+<li>必备</li>
+</ul>
+</li>
+<li>pytest以及若干插件
+<ul>
+<li>必备</li>
+</ul>
+</li>
+</ul>
+<p><code>这一套东西若想发挥最大作用，必须在每一次commit都运行，必须持续高频地跑才能价值最大化</code>，所以：</p>
+<ul>
+<li>最好本地化配置 pre-commit</li>
+<li>gitlab（或其他）上每次commit都执行</li>
+<li>执行速度要快，不快想办法，改成并行，堆机器都可以</li>
+</ul>
+<h1 id="工具库">工具库</h1>
+<ul>
+<li>pydantic（ 可选：attrs或者dataclasses）
+<ul>
+<li>可以减少很多代码，越早用上越好</li>
+</ul>
+</li>
+<li>type hint
+<ul>
+<li>用得越多好处越多，至少<code>每个函数的入参出参都要标注类型</code></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">hezhiming</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2022-08-31
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
         </div>
         
+
+  
+
+  
 
       </div>
     </main>
